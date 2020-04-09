@@ -267,7 +267,9 @@ wrap-6 .footer a{ color: black;}
 
     .wrap-5 .content-5 #main-5{ font-size: 30px;}    
     .wrap-5 .content-5 #para-5{ font-size: 15px;}
-    .wrap-5 .btn-5{ margin-bottom: 50px;}    
+    .wrap-5 .btn-5{ margin-bottom: 50px;}   
+    
+    .top{ bottom: 10px; right: 10px; border-radius: 40px;}
 }
 
 @media screen and (max-width:360px)
