@@ -19,6 +19,7 @@
 .col-11{ width: 91.66%; float: left; padding: 0 15px;}
 .col-12{ width: 100%; float: left; padding: 0 15px;}
 
+body:focus{ outline: none;}
 .container{ width: 1200px; margin: auto; padding: 0 15px;}
 
 .green{ color: rgb(46,204,113);}
