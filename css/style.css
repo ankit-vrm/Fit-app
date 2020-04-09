@@ -19,6 +19,7 @@
 .col-11{ width: 91.66%; float: left; padding: 0 15px;}
 .col-12{ width: 100%; float: left; padding: 0 15px;}
 
+body:focus{ outline: none;}
 .container{ width: 1200px; margin: auto; padding: 0 15px;}
 .mob:focus{ outline: none;}
 body:focus{ outline: none;}
@@ -86,7 +87,7 @@ section .sec-3 .col-5 #one{ margin-right: 29.8px;}
 .wrap-6 .footer{ text-align: center; padding: 5px 0; font-size: 16px; font-family: "Roboto",sans-serif; line-height: 1.778;}
 wrap-6 .footer a{ color: black;}
 
-.top{ position: fixed; bottom: 20px; right: 20px; display: none; cursor: pointer; border-radius: 30px; padding: 5px;  background-color: rgb(46,204,113);}
+.top{ position: fixed; bottom: 20px; right: 10px; display: none; cursor: pointer; border-radius: 30px; padding: 5px;  background-color: transparent;}
 
 
 
@@ -268,7 +269,9 @@ wrap-6 .footer a{ color: black;}
 
     .wrap-5 .content-5 #main-5{ font-size: 30px;}    
     .wrap-5 .content-5 #para-5{ font-size: 15px;}
-    .wrap-5 .btn-5{ margin-bottom: 50px;}    
+    .wrap-5 .btn-5{ margin-bottom: 50px;}   
+    
+    .top{ bottom: 10px; right: 5px; border-radius: 40px;}
 }
 
 @media screen and (max-width:360px)
