@@ -192,8 +192,9 @@ wrap-6 .footer a{ color: black;}
     .col-m-11{ width: 91.66%; float: left; padding: 0 15px;}
     .col-m-12{ width: 100%; float: left; padding: 0 15px;} 
  
-    #toggle-menu{ display: none; clear: both; margin-bottom: 60px; background-color: rgba(0,0,0,1); position: absolute; top: 18%; width: 100vw; right: 0; height: auto; padding: 20px 260px; text-align: center; z-index: 100;}
-    #toggle-menu ul li a{ display: inline-block; width: 100%; margin: 2px; padding: 0px; font-size: 16px; background-color: rgba(255,255,255,.2); border-radius: 40px;} 
+    #toggle-menu{ display: none; clear: both; margin-bottom: 60px; background-color: #000; position: absolute; top: 18%; width: 100vw; right: 0; height: auto; padding: 20px 260px; text-align: center; z-index: 100;}
+    #toggle-menu ul li a{ display: inline-block; width: 100%; margin: 2px; padding: 0px; font-size: 16px; background-color: transparent; border-radius: 40px;} 
+    #toggle-menu ul li a:hover{ border: 1px solid; color: #fff;}
     .mob{ display: block};
     #first{ margin-top: 30px; margin-left: 0;}
     .collapse #first{ margin-left: 0;}
@@ -239,7 +240,7 @@ wrap-6 .footer a{ color: black;}
     .col-p-6{ width: 50% }
     .col-p-12{ width: 100% }
     
-    #toggle-menu{ display: none; clear: both; margin-bottom: 60px; background-color: rgba(0,0,0,0.8); position: absolute; top: 12%; width: 100vw; right: 0; height: auto; padding: 20px 80px; text-align: center;}
+    #toggle-menu{ display: none; clear: both; margin-bottom: 60px; background-color: #000; position: absolute; top: 12%; width: 100vw; right: 0; height: auto; padding: 20px 80px; text-align: center;}
     #toggle-menu ul li a{ display: inline-block; width: 100%; margin: 2px; padding: 4px; font-size: 16px;}
     .mob{ margin: 20px -30px}
     
