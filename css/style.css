@@ -3,6 +3,10 @@
     margin:0;
     box-sizing: border-box;
 }
+*:focus{ outline: none;}
+*:focus-within{ outline: none;}
+a:focus{ outline: none;}
+a:focus-within{ outline: none;}
 
 .row{  margin:0 15px;}
 .row:after{ clear: both; display: block; content: "" }
@@ -19,11 +23,7 @@
 .col-11{ width: 91.66%; float: left; padding: 0 15px;}
 .col-12{ width: 100%; float: left; padding: 0 15px;}
 
-body:focus{ outline: none;}
 .container{ width: 1200px; margin: auto; padding: 0 15px;}
-.mob:focus{ outline: none;}
-body:focus{ outline: none;}
-body:focus-within{ outline: none;}
 .green{ color: rgb(46,204,113);}
 .bold{ font-weight:bold;}
 #first{ margin-left: 200px;}
@@ -48,7 +48,7 @@ button.act > span:nth-child(3){  -webkit-transform: rotate(17deg);  transform: r
 
 nav ul{ list-style: none;}
 nav ul li a{ text-decoration: none; float: left; font-size:18px; font-family: 'Roboto',sans-serif; color: rgb(254, 254, 254); margin: 41.5px 10.5px; padding: 2px 16px; cursor: pointer; line-height: 1.667;}
-nav ul li a:hover{background-color: rgba(255,255,255,.2); border-radius: 50px; transition-duration: 0.2s;}
+nav ul li a:hover{background-color: rgba(255,255,255,.2); border-radius: 50px; transition-duration: 0.2s; color: #000;}
 
 .wrap-1 section h2{ position: absolute; color: transparent;}
 section .sec-1 .col-2 img{ margin-top: 150px; cursor: pointer;}
@@ -57,7 +57,7 @@ section .sec-2 #main{ font-size: 64px; font-family: 'Roboto', sans-serif; color:
 section .sec-2 #describe{ font-size: 18px; font-family: "Roboto",sans-serif; color: rgb(244, 244, 244); line-height: 1.778; margin-top: 30px;}
 
 section .sec-3 .col-5 img{ margin-top: 59px; margin-bottom: 158.5px;}
-section .sec-3 .col-5 img:hover{ cursor: pointer; box-shadow: 0 5px 10px; transform: scale(.98);}
+section .sec-3 .col-5 img:hover{ cursor: pointer; box-shadow: 0 5px 10px #f3f3f3; transform: scale(.95);}
 section .sec-3 .col-5 #one{ margin-right: 29.8px;}
 
 
@@ -192,8 +192,8 @@ wrap-6 .footer a{ color: black;}
     .col-m-11{ width: 91.66%; float: left; padding: 0 15px;}
     .col-m-12{ width: 100%; float: left; padding: 0 15px;} 
  
-    #toggle-menu{ display: none; clear: both; margin-bottom: 60px; background-color: rgba(0,0,0,0.8); position: absolute; top: 18%; width: 100vw; right: 0; height: auto; padding: 20px 260px; text-align: center; z-index: 100;}
-    #toggle-menu ul li a{ display: inline-block; width: 100%; margin: 2px; padding: 0px; font-size: 16px} 
+    #toggle-menu{ display: none; clear: both; margin-bottom: 60px; background-color: rgba(0,0,0,1); position: absolute; top: 18%; width: 100vw; right: 0; height: auto; padding: 20px 260px; text-align: center; z-index: 100;}
+    #toggle-menu ul li a{ display: inline-block; width: 100%; margin: 2px; padding: 0px; font-size: 16px; background-color: rgba(255,255,255,.2); border-radius: 40px;} 
     .mob{ display: block};
     #first{ margin-top: 30px; margin-left: 0;}
     .collapse #first{ margin-left: 0;}
